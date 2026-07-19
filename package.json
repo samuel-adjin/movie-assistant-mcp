@@ -1,0 +1,29 @@
+{
+  "name": "mcp-movie-assistant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+     "mcp-example": "./build/index.js"
+   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "inspector": "npm run build && npx @modelcontextprotocol/inspector node build/index.js",
+     "start": "node ./build/index.js",
+     "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "^2.0.0-beta.2",
+    "tsx": "^4.23.0",
+    "zod": "^4.4.3"
+  }
+}
+
