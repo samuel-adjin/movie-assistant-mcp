@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "bin": {
-     "mcp-example": "./build/index.js"
-   },
+    "mcp-example": "./build/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "inspector": "npm run build && npx @modelcontextprotocol/inspector node build/index.js",
-     "start": "node ./build/index.js",
-     "build": "tsc"
+    "start": "node ./build/index.js",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
@@ -22,8 +22,8 @@
   },
   "dependencies": {
     "@modelcontextprotocol/server": "^2.0.0-beta.2",
+    "dotenv": "^17.4.2",
     "tsx": "^4.23.0",
     "zod": "^4.4.3"
   }
 }
-

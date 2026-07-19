@@ -1,6 +1,6 @@
 import z from "zod";
-import { server } from "./server.js";
-import { fetchMoviesFromTMDB } from "./api.js";
+import { server } from "./server.ts";
+import { fetchMoviesFromTMDB } from "./api.ts";
 
 export const TMBD_API_BASE = "https://api.themoviedb.org/3";
 
